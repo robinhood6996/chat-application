@@ -27,7 +27,6 @@ export default function Register() {
                 password
             })
         }
-        console.log('details', name, email, password, confirmPassword, agreed)
     }
 
     useEffect(() => {
@@ -36,7 +35,6 @@ export default function Register() {
         }
         if(data){
             navigate('/inbox');
-            console.log('data', data)
 
         }
     }, [data, registerError, navigate])

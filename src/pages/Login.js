@@ -29,7 +29,6 @@ export default function Login() {
         }
         if(data){
             navigate('/inbox');
-            console.log('data', data)
 
         }
     }, [data, loginError, navigate])

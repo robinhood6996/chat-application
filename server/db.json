@@ -29,6 +29,12 @@
       "password": "$2a$10$fIXcJGUy5XO.XzqLOpnXWOjegUwikhSljo6Dh2tCD89d12S39g5di",
       "name": "admin",
       "id": 5
+    },
+    {
+      "email": "robin@robin.com",
+      "password": "$2a$10$uewcJ5u3LsoKzJr/aT5X7O5jXD3His/N.MdMyXcloLGBZXCJBXsTC",
+      "name": "robin",
+      "id": 6
     }
   ],
   "conversations": [
@@ -70,7 +76,7 @@
     },
     {
       "id": 4,
-      "participants": "fakrulrobin7@gmail.com",
+      "participants": "fakrulrobin7@gmail.com-saad@learnwithsumit.com",
       "users": [
         {
           "email": "fakrulrobin7@gmail.com",
@@ -78,13 +84,52 @@
           "id": 4
         },
         {
-          "email": "akash@learnwithsumit.com",
+          "email": "saad@learnwithsumit.com",
+          "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
           "name": "Saad Hasan",
           "id": 3
         }
       ],
-      "message": "How are you?",
-      "timestamp": 1661976143678
+      "message": "Go to hell",
+      "timestamp": 1668867741960
+    },
+    {
+      "participants": "robin@robin.com-fakrulrobin7@gmail.com",
+      "users": [
+        {
+          "email": "robin@robin.com",
+          "name": "robin",
+          "id": 6
+        },
+        {
+          "email": "fakrulrobin7@gmail.com",
+          "password": "$2a$10$Z73dGBweQCH1rHIZ0BSQyuFeCkoV0DFWsPIyxzboBytlx/JZpD4hC",
+          "name": "Fakrul Islam Robin",
+          "id": 4
+        }
+      ],
+      "message": "Hello Robinhood ",
+      "timestamp": 1668867846167,
+      "id": 5
+    },
+    {
+      "participants": "robin@robin.com-sumit@learnwithsumit.com",
+      "users": [
+        {
+          "email": "robin@robin.com",
+          "name": "robin",
+          "id": 6
+        },
+        {
+          "email": "sumit@learnwithsumit.com",
+          "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+          "name": "Sumit Saha",
+          "id": 1
+        }
+      ],
+      "message": "Hi sumit\n",
+      "timestamp": 1668868094703,
+      "id": 6
     }
   ],
   "messages": [
@@ -119,6 +164,54 @@
       },
       "message": "How are you?",
       "timestamp": 1661976143678
+    },
+    {
+      "id": 3,
+      "conversationId": 4,
+      "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
+        "email": "fakrulrobin7@gmail.com",
+        "name": "Fakrul Islam Robin",
+        "id": 4
+      },
+      "message": "How are you?",
+      "timestamp": 1668611699
+    },
+    {
+      "id": 4,
+      "conversationId": 4,
+      "receiver": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "sender": {
+        "email": "fakrulrobin7@gmail.com",
+        "name": "Fakrul Islam Robin",
+        "id": 4
+      },
+      "message": "I'm fine. You?",
+      "timestamp": 1668611710
+    },
+    {
+      "id": 5,
+      "conversationId": 4,
+      "sender": {
+        "email": "saad@learnwithsumit.com",
+        "name": "Saad Hasan",
+        "id": 3
+      },
+      "receiver": {
+        "email": "fakrulrobin7@gmail.com",
+        "name": "Fakrul Islam Robin",
+        "id": 4
+      },
+      "message": "Good. What are you doing ?",
+      "timestamp": 1668611740
     }
   ]
 }

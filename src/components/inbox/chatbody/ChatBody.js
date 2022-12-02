@@ -28,7 +28,7 @@ export default function ChatBody() {
                    message={partnerMessages}
                 />
                 <Messages messages={messages} />
-                <Options />
+                <Options info={messages[0]}/>
     </>)
    }
     return (

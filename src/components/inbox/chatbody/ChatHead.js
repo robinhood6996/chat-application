@@ -1,8 +1,9 @@
 import gravatarUrl from "gravatar-url";
 
 export default function ChatHead({ message }) {
-    const {sender} = message || {};
-    const {name, email} = sender || {};
+    console.log('object', message);
+    const {receiver} = message || {};
+    const {name, email} = receiver || {};
     return (
         <div className="relative flex items-center p-3 border-b border-gray-300">
             <img

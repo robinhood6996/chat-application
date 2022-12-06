@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { useGetConversationQuery } from "../../features/conversations/conversationsApi";
+import {  useGetConversationsQuery } from "../../features/conversations/conversationsApi";
 import gravatarUrl from 'gravatar-url';
 import ChatItem from "./ChatItem";
 import Error from '../ui/Error';
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 export default function ChatItems() {
     const user = useSelector(state => state.auth.user);
     const {email} = user || {};
-    const {data:conversations, isError, isLoading, error} = useGetConversationQuery(email);
+    const {data:conversations, isError, isLoading, error} = useGetConversationsQuery(email);
     
     let content;
     if(isLoading){
